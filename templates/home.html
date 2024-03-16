@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}
+
+{% endblock %}
+{% block content %}
+  <div class="row mt-4">
+    <div class="col-6">
+      <div class="card" style="width: 100%;">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted"><b>Order your favourite food here!</b></h6>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus tempora, ipsam dolorem officia ut voluptate sit dignissimos doloribus commodi ipsa error corporis, natus non at placeat nisi cupiditate! Libero sit, aut eveniet neque consequuntur nam praesentium at? Ad, eligendi voluptas soluta rem est perferendis quis distinctio consectetur, quas eaque nam et maxime quod velit perspiciatis sit? Delectus laboriosam cupiditate blanditiis dolores ducimus quisquam, eveniet unde necessitatibus quam, impedit non nobis nostrum tempora autem facere officia soluta doloremque odit. Nulla maiores omnis reiciendis delectus aliquid consectetur! Excepturi numquam magni nisi laudantium temporibus pariatur assumenda nemo vitae. Ipsa doloremque tempore delectus fugiat iste, pariatur magnam fuga ullam odit suscipit illum amet id!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="card" style="width: 100%;">
+        {% load static %} <img src="{% static '/images/1.jpg' %}" alt="Hi!" />
+      </div>
+    </div>
+  </div>
+{% endblock %}
