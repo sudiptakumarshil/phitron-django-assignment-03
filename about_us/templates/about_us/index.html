@@ -2,12 +2,16 @@
 {% block title %}
   About us
 {% endblock %}
+
 {% block content %}
-  <style>
-    .img{
+  {% block custom_css %}
+    <style>
+      .img {
         width: 100%;
-    }
-  </style>
+      }
+    </style>
+  {% endblock %}
+
   <section class="bg-light py-5">
     <div class="container">
       <div class="row">
@@ -20,7 +24,7 @@
   </section>
 
   <!-- Team Section -->
-  <section class="py-5 ">
+  <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
