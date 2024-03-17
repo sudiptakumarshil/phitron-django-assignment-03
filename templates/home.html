@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% block title %}
-
+  Home
 {% endblock %}
 {% block content %}
   <div class="row mt-4">
-    <div class="col-6">
+    <div class="col-6 text-center">
       <div class="card" style="width: 100%;">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 text-muted"><b>Order your favourite food here!</b></h6>
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="col-6">
+    <div class="col-6 text-center">
       <div class="card" style="width: 100%;">
         {% load static %} <img src="{% static '/images/1.jpg' %}" alt="Hi!" />
       </div>
